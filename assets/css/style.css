@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --black: #000000;
   --html: #E93E30;
@@ -44,6 +45,7 @@ body,
   width: 55px;
   height: 55px;
   border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
 }
 .header__title,
 .footer__title {
@@ -65,6 +67,10 @@ body,
   line-height: 24px;
   text-decoration: none;
   margin-right: 1rem;
+}
+
+.card__icon {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
 }
 
 .novedades {
@@ -267,22 +273,22 @@ body,
   margin-bottom: 2rem;
   margin-left: 3rem;
 }
-.categorias--bg-html {
+.categorias__bg--html {
   background-color: var(--html);
 }
-.categorias--bg-js {
+.categorias__bg--js {
   background-color: var(--javascript);
 }
-.categorias--bg-css {
+.categorias__bg--css {
   background-color: var(--css);
 }
-.categorias--bg-react {
+.categorias__bg--react {
   background-color: var(--react);
 }
-.categorias--bg-vue {
+.categorias__bg--vue {
   background-color: var(--vue);
 }
-.categorias--bg-bootstrap {
+.categorias__bg--bootstrap {
   background-color: var(--bootstrap);
 }
 .categorias__name {
