@@ -1,0 +1,27 @@
+.populares {
+    @include py-2;
+    border-bottom: 3px solid #CCCCCC;
+    display: flex;
+    flex-direction: row;
+
+    &__main {
+        flex: 2;
+        background-color: $white;
+        @include border-radius-md;
+        overflow: hidden;
+        @include mr-1;
+    }
+
+    &__title {
+        font-weight: $fbold;
+        font-size: 2rem;
+        @include mr-1;
+    }
+
+    &__container {
+        @include flex-space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        @include mx-0;
+    }
+}

@@ -1,0 +1,91 @@
+.card {
+    &--small {
+        background-color: $white;
+        @include border-radius-xl;
+        overflow: hidden;
+        @include text-center;
+        @include flex-align-items-center;
+        flex-direction: row;
+        padding: 0 0.5rem;
+    }
+
+    &__img {
+        &--large {
+            @include w-100;
+            @include h-auto;
+            @include border-radius-xl;
+        }
+
+        &--small {
+            width: 40%;
+            height: 80%;
+            object-fit: cover;
+            @include border-radius-xl;
+        }
+    }
+
+    &__body {
+        @include p-1;
+        @include text-start;
+    }
+
+    &__date {
+        @include mb-1;
+        font-size: 16px;
+        color: $semi-black;
+        line-height: 24px;
+        font-weight: $fregular;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: $fbold;
+        line-height: 30px;
+        color: $semi-black;
+    }
+
+    &__footer {
+        @include flex-align-items-center;
+        gap: 0.5rem;
+    }
+
+    &__text {
+        &--large {
+            @include card-text;
+            line-height: 36px;
+            font-size: 24px;
+        }
+
+        &--small {
+            @include card-text;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+    }
+
+    &__icon {
+        width: 30px;
+        height: 30px;
+        @include box-shadow;
+        @include border-radius-xl;
+    }
+}
+
+.populares {
+    .card {
+        width: 45%;
+        @include mb-3;
+
+        &__img {
+            object-fit: cover;
+            width: 80%;
+            height: 20vh;
+            @include border-radius-xl;
+        }
+
+        &__body {
+            padding: 0;
+        }
+    }
+}

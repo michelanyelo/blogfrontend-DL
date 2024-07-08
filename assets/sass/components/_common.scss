@@ -1,0 +1,26 @@
+.component__container {
+    @include flex-align-items-center;
+    flex-direction: row;
+    @include py-2;
+    text-align: left;
+}
+
+.component__logo {
+    @include flex-align-items-center;
+    flex-direction: row;
+
+    img {
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        @include box-shadow;
+    }
+}
+
+.component__title {
+    font-style: normal;
+    font-weight: var(--fbold);
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 10px;
+}

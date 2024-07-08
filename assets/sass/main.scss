@@ -1,0 +1,27 @@
+//Grupo de caracteres permitido
+@charset 'UTF-8';
+
+// Importaciones Abstracts
+@import 'abstracts/variables', 'abstracts/mixins';
+
+// Importaciones Vendors
+
+// Importaciones Base
+@import 'base/reset';
+// 'base/typography',
+// 'base/anchors';
+
+// Importaciones Layout
+@import 'layout/header', 'layout/footer', 'layout/novedades', 'layout/populares', 'layout/categorias';
+
+// Importaciones Components
+@import 'components/common', 'components/card';
+// @import 'components/input';
+// @import 'components/button';
+
+// Importaciones Themes
+// @import 'themes/main';
+
+// Importaciones Pages
+// Shame on you
+@import 'shame/shame';

@@ -1,0 +1,13 @@
+.header {
+    &__container {
+        @extend .component__container;
+    }
+
+    &__logo {
+        @extend .component__logo;
+    }
+
+    &__title {
+        @extend .component__title;
+    }
+}

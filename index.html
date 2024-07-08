@@ -6,33 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog FrontEnd</title>
     <!-- CSS Compilado -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
     <!-- header -->
     <header class="header">
-        <div class="container header__container">
+        <div class="header__container">
             <div class="header__logo">
                 <img src="assets/img/logos/adl.png" alt="Academia Desafio Latam">
                 <h1 class="header__title">Blog FrontEnd</h1>
             </div>
-            <nav class="header__nav">
-                <a href="#" class="header__nav-link">Inicio</a>
-                <a href="#" class="header__nav-link">Novedades</a>
-                <a href="#" class="header__nav-link">Populares</a>
-                <a href="#" class="header__nav-link">Categorías</a>
-            </nav>
         </div>
     </header>
 
-    <section class="container novedades">
+    <section class="novedades">
         <h2 class="novedades__title">Novedades</h2>
         <div class="novedades__main">
             <!-- Main large card -->
-            <div class="novedades__card--large">
+            <div class="container__card--large card">
                 <img src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap" class="card__img--large">
-                <div class="card__body--large">
+                <div class="card__body">
                     <p class="card__date">24 Noviembre, 2022</p>
                     <h2 class="card__title">Modifica el tema de Bootstrap con variables CSS</h2>
                     <div class="card__footer">
@@ -42,38 +36,38 @@
                 </div>
             </div>
             <!-- Aside novedades -->
-            <div class="novedades__side">
-                <div class="novedades__card">
-                    <img src="assets/img/posts/Herencia-JS.png" alt="Herencia en JavaScript" class="card__img">
+            <div class="container__card--small">
+                <div class="card card--small">
+                    <img src="assets/img/posts/Herencia-JS.png" alt="Herencia en JavaScript" class="card__img--small">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
                         <h3 class="card__title">Herencia en JavaScript</h3>
                         <div class="card__footer">
                             <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
-                            <p class="card__text">Desafío Latam</p>
+                            <p class="card__text--small">Desafío Latam</p>
                         </div>
                     </div>
                 </div>
-                <div class="novedades__card">
+                <div class="card card--small">
                     <img src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="Etiquetas semánticas"
-                        class="card__img">
+                        class="card__img--small">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
                         <h3 class="card__title">Etiquetas semánticas</h3>
                         <div class="card__footer">
                             <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
-                            <p class="card__text">Desafío Latam</p>
+                            <p class="card__text--small">Desafío Latam</p>
                         </div>
                     </div>
                 </div>
-                <div class="novedades__card">
-                    <img src="assets/img/posts/reactComponents.png" alt="Componentes React" class="card__img">
+                <div class="card card--small">
+                    <img src="assets/img/posts/reactComponents.png" alt="Componentes React" class="card__img--small">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
                         <h3 class="card__title">Componentes React</h3>
                         <div class="card__footer">
                             <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
-                            <p class="card__text">Desafío Latam</p>
+                            <p class="card__text--small">Desafío Latam</p>
                         </div>
                     </div>
                 </div>
@@ -81,12 +75,12 @@
         </div>
     </section>
 
-    <div class="container populares categorias">
+    <div class="populares categorias">
         <section class="populares__main">
             <h2 class="populares__title">Populares</h2>
             <!-- Main Populares -->
             <div class="populares__container">
-                <div class="populares__card">
+                <div class="card populares__card">
                     <img src="assets/img/posts/vue-components.png" alt="Componentes Vue" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -97,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="populares__card">
+                <div class="card populares__card">
                     <img src="assets/img/posts/api-js.png" alt="API JS" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -108,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="populares__card">
+                <div class="card populares__card">
                     <img src="assets/img/posts/sass.jpg" alt="CSS Reutilizable con Sass" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -119,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="populares__card">
+                <div class="card populares__card">
                     <img src="assets/img/posts/bootstrap.png" alt="Componentes Bootstrap" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
