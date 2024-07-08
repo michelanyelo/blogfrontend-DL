@@ -1,0 +1,13 @@
+.categorias {
+    &__shape {
+        @include p-1;
+        @include border-radius-md;
+        @include flex-direction-row;
+        @include mb-1;
+        @include ml-3;
+        width: 297px;
+        height: 90px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

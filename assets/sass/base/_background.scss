@@ -1,0 +1,27 @@
+.categorias {
+    &__bg {
+        &--html {
+            background-color: $html;
+        }
+
+        &--js {
+            background-color: $javascript;
+        }
+
+        &--css {
+            background-color: $css;
+        }
+
+        &--react {
+            background-color: $react;
+        }
+
+        &--vue {
+            background-color: $vue;
+        }
+
+        &--bootstrap {
+            background-color: $bootstrap;
+        }
+    }
+}

@@ -15,6 +15,10 @@
     margin-bottom: 3rem;
 }
 
+@mixin ml-3 {
+    margin-left: 3rem;
+}
+
 @mixin mr-1 {
     margin-right: 1rem;
 }
@@ -48,6 +52,11 @@
     flex-direction: column;
 }
 
+@mixin flex-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
 @mixin text-start {
     text-align: start;
 }
@@ -69,10 +78,16 @@
     font-weight: $fmedium;
 }
 
-@mixin border-radius-xl{
+@mixin border-radius-xl {
     border-radius: 1rem;
 }
 
-@mixin border-radius-md{
+@mixin border-radius-md {
     border-radius: 0.5rem;
+}
+
+@mixin title-styles {
+    font-weight: $fbold;
+    font-size: 2rem;
+    margin-right: 1rem;
 }

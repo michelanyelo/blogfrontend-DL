@@ -1,0 +1,16 @@
+.categorias {
+    &__name {
+        color: $white;
+        font-weight: $fbold;
+        font-size: 32px;
+    }
+
+    &__link {
+        color: $semi-black;
+        font-weight: $fregular;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        margin-left: 3rem;
+    }
+}

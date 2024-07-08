@@ -1,0 +1,7 @@
+.novedades,
+.populares,
+.categorias {
+    &__title {
+        @include title-styles;
+    }
+}
