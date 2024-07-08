@@ -1,0 +1,18 @@
+.card {
+    &--small {
+        background-color: $white;
+        @include border-radius-xl;
+        @include text-center;
+        @include flex-align-items-center;
+        flex-direction: row;
+        padding: 0 0.5rem;
+        overflow: hidden;
+    }
+}
+
+.populares {
+    .card {
+        width: 45%;
+        @include mb-3;
+    }
+}

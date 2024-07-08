@@ -2,29 +2,23 @@
     border: 3px solid #CCCCCC;
     @include mx-0;
     @include py-2;
-}
 
-.novedades__title {
-    font-weight: $fbold;
-    font-size: 2rem;
-}
-
-.novedades__main {
-    @include flex-space-between;
-}
-
-.container__card {
-    &--large {
-        flex: 2;
-        background-color: $white;
-        overflow: hidden;
-        @include mr-1;
+    &__main {
+        @include flex-space-between;
     }
 
-    &--small {
-        @include flex-direction-column;
-        flex: 1;
-        gap: 0.5rem;
+    &__container {
+        &--large {
+            flex: 2;
+            background-color: $white;
+            overflow: hidden;
+            @include mr-1;
+        }
+
+        &--small {
+            @include flex-direction-column;
+            flex: 1;
+            gap: 0.5rem;
+        }
     }
 }
-

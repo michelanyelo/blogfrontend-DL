@@ -1,12 +1,7 @@
 .card {
-    &--small {
-        background-color: $white;
-        @include border-radius-xl;
-        overflow: hidden;
-        @include text-center;
-        @include flex-align-items-center;
-        flex-direction: row;
-        padding: 0 0.5rem;
+    &__body {
+        @include p-1;
+        @include text-start;
     }
 
     &__img {
@@ -22,11 +17,6 @@
             object-fit: cover;
             @include border-radius-xl;
         }
-    }
-
-    &__body {
-        @include p-1;
-        @include text-start;
     }
 
     &__date {
@@ -60,7 +50,6 @@
             @include card-text;
             font-size: 16px;
             line-height: 24px;
-
         }
     }
 
@@ -74,9 +63,6 @@
 
 .populares {
     .card {
-        width: 45%;
-        @include mb-3;
-
         &__img {
             object-fit: cover;
             width: 80%;

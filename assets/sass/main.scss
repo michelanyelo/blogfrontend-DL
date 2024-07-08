@@ -7,15 +7,15 @@
 // Importaciones Vendors
 
 // Importaciones Base
-@import 'base/reset';
+@import 'base/reset', 'base/background', 'base/shape';
 // 'base/typography',
 // 'base/anchors';
 
 // Importaciones Layout
-@import 'layout/header', 'layout/footer', 'layout/novedades', 'layout/populares', 'layout/categorias';
+@import 'layout/header', 'layout/footer', 'layout/novedades', 'layout/populares', 'layout/categorias', 'layout/_card';
 
 // Importaciones Components
-@import 'components/common', 'components/card';
+@import 'components/common', 'components/card', 'components/title', 'components/img', 'components/categorias';
 // @import 'components/input';
 // @import 'components/button';
 

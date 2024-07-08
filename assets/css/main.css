@@ -19,6 +19,38 @@ a:link {
   font-size: 18px;
 }
 
+.categorias__bg--html {
+  background-color: #E93E30;
+}
+.categorias__bg--js {
+  background-color: #F7E018;
+}
+.categorias__bg--css {
+  background-color: #299ED5;
+}
+.categorias__bg--react {
+  background-color: #292C33;
+}
+.categorias__bg--vue {
+  background-color: #67C770;
+}
+.categorias__bg--bootstrap {
+  background-color: #563D7C;
+}
+
+.categorias__shape {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  width: 297px;
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .component__container, .footer__container, .header__container {
   display: flex;
   align-items: center;
@@ -63,24 +95,17 @@ a:link {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
-
-.novedades__title {
-  font-weight: 700;
-  font-size: 2rem;
-}
-
 .novedades__main {
   display: flex;
   justify-content: space-between;
 }
-
-.container__card--large {
+.novedades__container--large {
   flex: 2;
   background-color: #fff;
   overflow: hidden;
   margin-right: 1rem;
 }
-.container__card--small {
+.novedades__container--small {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -90,20 +115,15 @@ a:link {
 .populares {
   padding-bottom: 2rem;
   padding-top: 2rem;
-  border-bottom: 3px solid #CCCCCC;
   display: flex;
   flex-direction: row;
+  border-bottom: 3px solid #CCCCCC;
 }
 .populares__main {
   flex: 2;
   background-color: #fff;
   border-radius: 0.5rem;
   overflow: hidden;
-  margin-right: 1rem;
-}
-.populares__title {
-  font-weight: 700;
-  font-size: 2rem;
   margin-right: 1rem;
 }
 .populares__container {
@@ -123,69 +143,20 @@ a:link {
   align-items: flex-start;
 }
 
-.categorias__title {
-  font-weight: 700;
-  font-size: 2rem;
-  margin: 1rem 0;
-  margin-left: 3rem;
-}
-
-.categorias__img {
-  width: 85px;
-  height: px;
-  padding: 0.5rem;
-}
-
-.categorias__shape {
-  padding: 1rem 1rem;
-  width: 297px;
-  height: 90px;
-  border-radius: 10px;
+.card--small {
+  background-color: #fff;
+  border-radius: 1rem;
+  text-align: center;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  margin-left: 3rem;
+  flex-direction: row;
+  padding: 0 0.5rem;
+  overflow: hidden;
 }
 
-.categorias__bg--html {
-  background-color: #E93E30;
-}
-
-.categorias__bg--js {
-  background-color: #F7E018;
-}
-
-.categorias__bg--css {
-  background-color: #299ED5;
-}
-
-.categorias__bg--react {
-  background-color: #292C33;
-}
-
-.categorias__bg--vue {
-  background-color: #67C770;
-}
-
-.categorias__bg--bootstrap {
-  background-color: #563D7C;
-}
-
-.categorias__name {
-  color: #fff;
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.categorias__link {
-  color: #171717;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  text-decoration: none;
-  margin-left: 3rem;
+.populares .card {
+  width: 45%;
+  margin-bottom: 3rem;
 }
 
 .component__container, .header__container, .footer__container {
@@ -217,15 +188,9 @@ a:link {
   margin-left: 10px;
 }
 
-.card--small {
-  background-color: #fff;
-  border-radius: 1rem;
-  overflow: hidden;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding: 0 0.5rem;
+.card__body {
+  padding: 1rem;
+  text-align: start;
 }
 .card__img--large {
   width: 100%;
@@ -238,10 +203,6 @@ a:link {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 1rem;
-}
-.card__body {
-  padding: 1rem;
-  text-align: start;
 }
 .card__date {
   margin-bottom: 1rem;
@@ -280,10 +241,6 @@ a:link {
   border-radius: 1rem;
 }
 
-.populares .card {
-  width: 45%;
-  margin-bottom: 3rem;
-}
 .populares .card__img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -293,6 +250,33 @@ a:link {
 }
 .populares .card__body {
   padding: 0;
+}
+
+.novedades__title,
+.populares__title,
+.categorias__title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.categorias__img {
+  width: 85px;
+  padding: 0.5rem;
+}
+
+.categorias__name {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+.categorias__link {
+  color: #171717;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  margin-left: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
