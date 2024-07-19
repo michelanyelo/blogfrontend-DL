@@ -30,7 +30,7 @@
         <h2 class="novedades__title">Novedades</h2>
         <div class="novedades__main">
             <!-- Main large card -->
-            <div class="novedades__card--large">
+            <div class="card card--large">
                 <img src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap" class="card__img--large">
                 <div class="card__body--large">
                     <p class="card__date">24 Noviembre, 2022</p>
@@ -43,7 +43,7 @@
             </div>
             <!-- Aside novedades -->
             <div class="novedades__side">
-                <div class="novedades__card">
+                <div class="card card--aside">
                     <img src="assets/img/posts/Herencia-JS.png" alt="Herencia en JavaScript" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="novedades__card">
+                <div class="card card--aside">
                     <img src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="Etiquetas semánticas"
                         class="card__img">
                     <div class="card__body">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="novedades__card">
+                <div class="card card--aside">
                     <img src="assets/img/posts/reactComponents.png" alt="Componentes React" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -85,8 +85,8 @@
         <section class="populares__main">
             <h2 class="populares__title">Populares</h2>
             <!-- Main Populares -->
-            <div class="populares__container">
-                <div class="populares__card">
+            <div class="populares__cardcontainer">
+                <div class="card card--popular">
                     <img src="assets/img/posts/vue-components.png" alt="Componentes Vue" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="populares__card">
+                <div class="card card--popular">
                     <img src="assets/img/posts/api-js.png" alt="API JS" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="populares__card">
+                <div class="card card--popular">
                     <img src="assets/img/posts/sass.jpg" alt="CSS Reutilizable con Sass" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="populares__card">
+                <div class="card card--popular">
                     <img src="assets/img/posts/bootstrap.png" alt="Componentes Bootstrap" class="card__img">
                     <div class="card__body">
                         <p class="card__date">24 Noviembre, 2022</p>
@@ -135,32 +135,33 @@
         <section class="categorias__main">
             <!-- Aside Categorias -->
             <h2 class="categorias__title">Categorias</h2>
-            <div class="categorias__bg--html categorias__shape">
-                <img class="categorias__img" src="assets/img/logos/html.png" alt="HTML">
-                <h3 class="categorias__name">HTML</h3>
+            <div class="tag tag--html">
+                <img class="tag__img" src="assets/img/logos/html.png" alt="HTML">
+                <h3 class="tag__name">HTML</h3>
             </div>
-            <div class="categorias__bg--js categorias__shape">
-                <img class="categorias__img" src="assets/img/logos/js.png" alt="JavaScript">
-                <h3 class="categorias__name">JavaScript</h3>
+            <div class="tag tag--js">
+                <img class="tag__img" src="assets/img/logos/js.png" alt="JavaScript">
+                <h3 class="tag__name">JavaScript</h3>
             </div>
-            <div class="categorias__bg--css categorias__shape">
-                <img class="categorias__img" src="assets/img/logos/css.png" alt="CSS">
-                <h3 class="categorias__name">CSS</h3>
+            <div class="tag tag--css">
+                <img class="tag__img" src="assets/img/logos/css.png" alt="CSS">
+                <h3 class="tag__name">CSS</h3>
             </div>
-            <div class="categorias__bg--react categorias__shape">
-                <img class="categorias__img" src="assets/img/logos/react.png" alt="React">
-                <h3 class="categorias__name">React</h3>
+            <div class="tag tag--react">
+                <img class="tag__img" src="assets/img/logos/react.png" alt="React">
+                <h3 class="tag__name">React</h3>
             </div>
-            <div class="categorias__bg--vue categorias__shape">
-                <img class="categorias__img" src="assets/img/logos/vue.png" alt="Vue">
-                <h3 class="categorias__name">Vue</h3>
+            <div class="tag tag--vue">
+                <img class="tag__img" src="assets/img/logos/vue.png" alt="Vue">
+                <h3 class="tag__name">Vue</h3>
             </div>
-            <div class="categorias__bg--bootstrap categorias__shape">
-                <img class="categorias__img" src="assets/img/logos/bootstrap-logo.png" alt="Bootstrap">
-                <h3 class="categorias__name">Bootstrap</h3>
+            <div class="tag tag--bootstrap">
+                <img class="tag__img" src="assets/img/logos/bootstrap-logo.png" alt="Bootstrap">
+                <h3 class="tag__name">Bootstrap</h3>
             </div>
             <a href="#" class="categorias__link">Ver todas las categorías ></a>
         </section>
+
     </div>
 
     <!-- footer reutilizando header -->
